@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0; 
+  }
+  
+  header {
+    background: #ffcc00;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+}
+  
+
+
+/* horizontal */
+nav.horizontal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+nav.horizontal ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav.horizontal ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav.horizontal ul li a:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+
+
+
+/* textos */
+  h1, h2, h3 {
+    color: #444;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  ul {
+    color: #ccc;
+    list-style: circle; 
+  }
+  
+  ol {
+    color: #222;
+    list-style: upper-roman;
+  }
+
+  .importante {
+    font-style: italic;
+    color: black; 
+    text-decoration: underline; 
+  }
+
+  #titulo-principal {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+  }
+
+  .texto-derecha {
+    text-align: right;
+  }
+
+  #emocion {
+    font-style: italic;
+  }
+
+
+
+/* tablas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background: #ffcc00;
+    color: black;
+    color: deeppink;
+  }
+
+
+
+
+
+/* pie pagina */
+
+  footer {
+    background: #ffcc00;
+    text-align: center;
+    padding: 10px;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+/* fotos pagina 2 */
+ .foto {
+  list-style: none;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+ } 
+
+ .foto li {
+  display: inline;
+  padding-right: 50px; 
+ } 
+
+ .foto li img {
+  width: 500px;
+  height: 200px;
+ }
+
+
+/* Formulario pagina 3 */
+  input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button:hover {
+      background: #e6b800;
+  }
+
+  label {
+    font-weight: bold;
+  }
